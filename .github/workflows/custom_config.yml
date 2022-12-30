@@ -3,7 +3,7 @@ name: CI-CD pipeline to AWS
 env:
   EB_S3_BUCKET_NAME: "project22-sample"
   EB_APPLICATION_NAME: "sample"
-  EB_ENVIRONMENT_NAME: "sample-env" # 보통 앱 이름에 -env 형태로 자동 생성
+  EB_ENVIRONMENT_NAME: "Sample-env" # 보통 앱 이름에 -env 형태로 자동 생성
   DEPLOY_PACKAGE_NAME: "django-app-${{ github.sha }}.zip"
   AWS_REGION_NAME: "ap-northeast-2" # ex) ap-northeast-2
 
