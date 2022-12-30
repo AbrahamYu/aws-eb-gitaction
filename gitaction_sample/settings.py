@@ -26,6 +26,7 @@ SECRET_KEY = 'django-insecure-55uj!^)2!&qp$=&zl&udagoz%yd(xl6i=&b-qgg*+y&67h&a=i
 DEBUG = True
 
 # ALLOWED_HOSTS = []
+# setting eb urls
 ALLOWED_HOSTS = [
     'http://sample-env.eba-2qf5rknm.ap-northeast-2.elasticbeanstalk.com/']
 
