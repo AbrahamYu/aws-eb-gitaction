@@ -28,7 +28,7 @@ DEBUG = True
 # ALLOWED_HOSTS = []
 # setting eb urls
 ALLOWED_HOSTS = [
-    'http://sample-env.eba-2qf5rknm.ap-northeast-2.elasticbeanstalk.com/']
+    'Sample-env.eba-2qf5rknm.ap-northeast-2.elasticbeanstalk.com']
 
 
 # Application definition
